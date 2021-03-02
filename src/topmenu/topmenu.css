@@ -1,5 +1,5 @@
 .top-menu-container{
-    height: 400px;
+    height: 450px;
     max-width: 1460px;
 }
 
@@ -12,13 +12,13 @@
 }
 
 .top-menu-list{
-    margin-top: 2%;
-    font-size:1.3em;
-    font-family: Lato,sans-serif;
+    margin-top: 4%;
+    /*font-size:1.3em;*/
+    font-size: calc(10px + 1.5vmin);
     text-transform: uppercase;
 }
 
-.top-menu-container a{
+.top-menu-container a,.top-menu-container Link{
     color:black;
     text-decoration: none;
     padding: 30px 40px;
@@ -44,19 +44,20 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+/*
 @media screen and (max-width: 1320px) {
     .top-menu-list {
         font-size: 1em;
     }
 }
-
-@media screen and (max-width: 1155px) {
+*/
+@media screen and (max-width: 1165px) {
     .top-menu-list {
-        font-size: 1em;
+        font-size: calc(7px + 1vmin);
     }
 }
 
+/*
 @media screen and (max-width: 990px) {
     .top-menu-list {
         font-size: 0.8em;
@@ -67,9 +68,15 @@
         font-size: 0.7em;
     }
 }
-
-@media screen and (max-width: 760px) {
+*/
+@media screen and (max-width: 768px) {
+    .top-menu-container{
+        height: 100vh;
+    }
     .top-menu-list {
-        font-size: 1.4em;
+        font-size: calc(15px + 1vmin);
+    }
+    .colMenuLink{
+        margin-bottom:25px;
     }
 }
