@@ -8,4 +8,6 @@
     color: white;
     max-width:none;
     margin:0;
+    padding-top:calc(40px + 1.5vmin);
+    padding-bottom:calc(40px + 1.5vmin);
 }

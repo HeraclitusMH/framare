@@ -3,6 +3,10 @@
     max-width: 1460px;
 }
 
+.dropdown-toggle::after{
+    margin-left:0;
+}
+
 .top-logo{
     height: 300px;
     background-size: cover;
@@ -14,15 +18,49 @@
 .top-menu-list{
     margin-top: 4%;
     /*font-size:1.3em;*/
-    font-size: calc(10px + 1.5vmin);
+    font-size: calc(10px + 1.2vmin);
     text-transform: uppercase;
 }
 
-.top-menu-container a,.top-menu-container Link{
+.top-menu-container a,.top-menu-container Link, .dropdown-custom-components{
     color:black;
     text-decoration: none;
     padding: 30px 40px;
     transition: 0.6s;
+}
+#homeLinkMenu{
+    padding-bottom:30px;
+}
+.dropdown-custom-components{
+    background-color:white;
+    border-color:white;
+    font-size:1em;
+    font-family: Lato,sans-serif;
+    text-transform: uppercase;
+    padding-top:0;
+}
+.dropdown-toggle{
+    transition: 1s;
+}
+.dropdown-toggle:hover,.btn-primary:focus{
+    background-color: white;
+    border-color:white;
+    color:black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: none !important;
+}
+
+.show>.btn-primary.dropdown-toggle, .btn-primary.focus, .btn-primary:active {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+    box-shadow: none !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
 }
 
 .brush1:hover{
@@ -77,6 +115,5 @@
         font-size: calc(15px + 1vmin);
     }
     .colMenuLink{
-        margin-bottom:25px;
     }
 }

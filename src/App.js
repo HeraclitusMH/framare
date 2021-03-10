@@ -5,6 +5,7 @@ import {Topmenu} from './topmenu/Topmenu'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import {Chisiamo} from "./chisiamo/Chisiamo";
 import {Footer} from "./footer/Footer";
+import {Home} from "./home/Home";
 
 function App() {
   return (
@@ -14,6 +15,12 @@ function App() {
           <BrowserRouter>
               <Topmenu></Topmenu>
               <Switch>
+                  <Route exact path="/">
+                      <Home></Home>
+                  </Route>
+                  <Route path="/home">
+                      <Home></Home>
+                  </Route>
                   <Route path="/chisiamo">
                       <Chisiamo></Chisiamo>
                   </Route>
