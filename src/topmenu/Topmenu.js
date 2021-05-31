@@ -33,25 +33,24 @@ export class Topmenu extends Component {
                             <Link to="/cosafacciamo" className={"brush1"}>Cosa facciamo</Link>
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
-                            <Dropdown.Item eventKey="1">Attività</Dropdown.Item>
-                            <Dropdown.Item eventKey="2">Link (Selezioni musicali)</Dropdown.Item>
-                            <Dropdown.Item eventKey="3">Galleria</Dropdown.Item>
-                            <Dropdown.Item eventKey="4">Social</Dropdown.Item>
+                            <Dropdown.Item eventKey="2"><Link to="/link">Link (Selezioni musicali)</Link></Dropdown.Item>
+                            <Dropdown.Item eventKey="3"><Link to="/galleria">Galleria</Link></Dropdown.Item>
+                            <Dropdown.Item eventKey="4"><Link to="/social">Social</Link></Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Col>
                 <Col xs={12} sm={12} md={3}>
                     <Dropdown className={"dropdownButton"}>
                         <Dropdown.Toggle className="dropdown-custom-components">
-                            <Link to="./" className={"brush1"}>Eventi e notizie</Link>
+                            <Link to="/eventinotizie" className={"brush1"}>Eventi e notizie</Link>
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                            <Dropdown.Item eventKey="1">Comunicazioni</Dropdown.Item>
+                            <Dropdown.Item eventKey="1"><Link to="/comunicazioni" >Comunicazioni</Link></Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Col>
-                <Col xs={12} sm={12} md={2}><Link to="./" className={"brush2"}>Contatti</Link></Col>
+                <Col xs={12} sm={12} md={2}><Link to="/contatti" className={"brush2"}>Contatti</Link></Col>
             </Row>
         </Container>
 

@@ -1,11 +1,6 @@
-#homeContainer{
+#contatti{
     background-image: url("../assets/watercolor-background_3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-.foto_footer{
-    width:100%;
-    height: 100%;
 }

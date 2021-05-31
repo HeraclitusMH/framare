@@ -16,7 +16,7 @@
   pointer-events: none;
 }
 .App{
-  font-family: Lato,sans-serif;
+  font-family: 'Crimson Text', serif;
 }
 
 .App-link {
@@ -38,4 +38,15 @@
 
 .pr0 {
   padding-right: 0!important;
+}
+
+.subtitle{
+  text-transform: uppercase;
+}
+
+.title{
+  font-size: calc(20px + 1.2vmin);
+  text-transform: uppercase;
+  font-family: 'Cormorant Unicase', serif;
+  font-weight: 300;
 }

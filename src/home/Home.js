@@ -28,13 +28,13 @@ export class Home extends Component {
                     <Col xs={12} md={3}></Col>
                 </Row>
             </Container>
-                <Container className={"maxSize"}>
-                <Row>
-                    <Col xs={12} md={12} className={"pl0 pr0"}>
-                        <img src={foto_footer} alt="" className={"foto_footer"}/>
-                    </Col>
-                </Row>
-                </Container>
+            <Container className={"maxSize"}>
+            <Row>
+                <Col xs={12} md={12} className={"pl0 pr0"}>
+                    <img src={foto_footer} alt="" className={"foto_footer"}/>
+                </Col>
+            </Row>
+            </Container>
             </div>
 
         )

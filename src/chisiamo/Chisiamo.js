@@ -9,6 +9,7 @@ export class Chisiamo extends Component {
                 <Row>
                     <Col xs={12} md={3}></Col>
                     <Col xs={12} md={6}>
+                        <h2 className={"title"}>Chi siamo</h2> <br/><br/>
                         <p>
                             L’associazione di promozione sociale “Framarè” è una giovane associazione, senza scopo di lucro,
                             che, ispirata da finalità civiche, solidaristiche e di utilità sociale, si propone di organizzare e
