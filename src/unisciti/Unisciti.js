@@ -9,12 +9,11 @@ export class Unisciti extends Component {
                 <Row>
                     <Col xs={12} md={3}></Col>
                     <Col xs={12} md={6}>
-                        <h2 className={"title"}>Per far parte di Framaré</h2> <br/><br/>
+                        <h2 className={"title"}>Vieni con noi</h2> <br/><br/>
                         <p>
-                            Per aderire all’associazione è necessario condividere lo spirito e i principi fondamentali contenuti
-                            nello statuto dell’associazione e trasmettere il modulo di richiesta di adesione all’email
-                            associazione.framare@gmail.com che verrà opportunamente vagliata dal Consiglio Direttivo,
-                            secondo i criteri stabiliti all’art.5 dello Statuto.
+                            Se vuoi partecipare alle nostre attività, perché condividi con noi lo spirito di questo progetto,
+                            spedisci la tua domanda di adesione a associazione.framare@gmail.com
+                            compilando <a href="#">questo</a> modulo
                         </p>
                         <br/><br/>
                     </Col>

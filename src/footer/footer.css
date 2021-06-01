@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 1.5vmin);
+    text-align: center;
     color: white;
     max-width:none;
     margin:0;

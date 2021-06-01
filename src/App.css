@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden
 }
 
 .maxSize{
@@ -17,6 +18,7 @@
 }
 .App{
   font-family: 'Crimson Text', serif;
+  text-align: justify;
 }
 
 .App-link {
@@ -45,6 +47,7 @@
 }
 
 .title{
+  text-align: center;
   font-size: calc(20px + 1.2vmin);
   text-transform: uppercase;
   font-family: 'Cormorant Unicase', serif;

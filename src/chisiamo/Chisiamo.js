@@ -24,9 +24,10 @@ export class Chisiamo extends Component {
                             sassofono.
                         </p>
                         <br/><br/>
-                        I progetti finora avviati dall’Associazione Framarè sono stati condivisi con il Comitato Promotore della Fondazione Anna Donzelli,
-                        per l’affetto, la stima e la stretta comunanza di intenti,
-                        sebbene il difficile periodo della pandemia ne abbia ostacolato le auspicate potenzialità e sviluppi.
+                        <p>
+                            I progetti finora avviati dall’Associazione Framarè sono stati condivisi con
+                            il Comitato Promotore della Fondazione Anna Donzelli
+                        </p>
                     </Col>
                     <Col xs={12} md={3}></Col>
                 </Row>

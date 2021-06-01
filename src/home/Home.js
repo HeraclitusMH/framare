@@ -12,17 +12,15 @@ export class Home extends Component {
                     <Col xs={12} md={3}></Col>
                     <Col xs={12} md={6}>
                         <p>
-                            L’associazione di promozione sociale “Framarè” è una giovane associazione, senza scopo di lucro,
-                            che, ispirata da finalità civiche, solidaristiche e di utilità sociale, si propone di organizzare e
-                            promuovere attività culturali, artistiche o ricreative di interesse sociale, di sostegno e diffusione
-                            della cultura, soprattutto musicale e della pratica del volontariato. <br/><br/>
-                            L’Associazione Framaré nasce dal desiderio che tra i giovani si alimentino speranze e passioni,
-                            ispirati dall&#39;energia di Francesco e Anna, entrambi giovani sognatori, entusiasti di costruire con
-                            concretezza e determinazione un futuro, senza diseguaglianze e senza barriere. Con i tanti amici,
-                            infatti, in un clima aperto di comunità, credevano nel metodo del “fare insieme”, dell’approfondire
-                            sui testi e con la pratica, del confronto serio e continuo tra i coetanei, con altre generazioni, senza
-                            mai trascurare leggerezza, simpatia e creatività, che Francesco realizzava con il jazz e il suo
-                            sassofono.
+                            “Framarè” è una giovane associazione, nata per dare un futuro alle aspirazioni e ai progetti sognati
+                            dal giovane musicista Francesco Maresca, e da lui condivisi con Anna Donzelli, nell’amore che li
+                            ha uniti e che hanno investito in iniziative per diffondere cultura, soprattutto musicale, e attività di
+                            solidarietà. <br/><br/>
+                            L’Associazione Framarè nasce dal desiderio di alimentare speranze e passioni, ispirati dall&#39;energia
+                            di Francesco e Anna, costruttori di un’idea di futuro senza diseguaglianze e senza barriere. In un
+                            clima aperto di comunità e di confronto tra coetanei e generazioni diverse, “Framarè” si propone di
+                            proseguire il loro impegno senza mai trascurare la leggerezza, l’ironia e la creatività che Francesco
+                            e Anna hanno sempre sprigionato.
                         </p>
                     </Col>
                     <Col xs={12} md={3}></Col>
