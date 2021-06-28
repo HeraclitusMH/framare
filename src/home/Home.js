@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container,Row,Col} from "react-bootstrap";
 import "./home.css"
-import foto_footer from '../assets/foto_framare.jpg';
+import foto_footer from '../assets/foto/fra7.jpg';
 
 export class Home extends Component {
     render() {

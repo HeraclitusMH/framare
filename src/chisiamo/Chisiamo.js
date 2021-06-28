@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Container,Row,Col} from "react-bootstrap";
 import "./chisiamo.css"
+import foto from '../assets/foto/fra8.jpeg';
 
 export class Chisiamo extends Component {
     render() {
@@ -30,6 +31,13 @@ export class Chisiamo extends Component {
                         </p>
                     </Col>
                     <Col xs={12} md={3}></Col>
+                </Row>
+                <Row>
+                    <Col xs={3} md={3} className={"pl0 pr0"}>
+                    </Col>
+                    <Col xs={6} md={6} className={"pl0 pr0"}>
+                        <img src={foto} alt="" className={"foto"}/>
+                    </Col>
                 </Row>
             </Container>
         )
