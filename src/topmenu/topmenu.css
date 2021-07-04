@@ -22,9 +22,7 @@
     padding: 30px 40px;
     transition: 0.6s;
 }
-/*#homeLinkMenu{*/
-/*    padding-bottom:30px;*/
-/*}*/
+
 .dropdown-custom-components{
     background-color:white;
     border-color:white;
@@ -96,31 +94,21 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-/*
-@media screen and (max-width: 1320px) {
-    .top-menu-list {
-        font-size: 1em;
-    }
+
+.top-social-container{
+    margin-top:10px;
 }
-*/
+
+.facebook-top-logo{
+    width:30px;
+}
+
 @media screen and (max-width: 1165px) {
     .top-menu-list {
         font-size: calc(7px + 1vmin);
     }
 }
 
-/*
-@media screen and (max-width: 990px) {
-    .top-menu-list {
-        font-size: 0.8em;
-    }
-}
-@media screen and (max-width: 830px) {
-    .top-menu-list {
-        font-size: 0.7em;
-    }
-}
-*/
 @media screen and (max-width: 768px) {
     .top-menu-container{
         height: 100vh;

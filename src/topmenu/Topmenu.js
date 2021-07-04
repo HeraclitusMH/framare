@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './topmenu.css';
 import {Link} from 'react-router-dom';
 import {Container,Row,Col, Dropdown} from "react-bootstrap";
+import fbLogo from '../assets/facebookIcon.png';
 
 export class Topmenu extends Component {
 
@@ -37,6 +38,11 @@ export class Topmenu extends Component {
     render() {
         return(
         <Container className={"top-menu-container"}>
+            <Row className={"top-social-container"}>
+                <Col xs={8} md={10}></Col>
+                <Col xs={4} md={2}><a href="https://www.facebook.com/AssociazioneFramare/"><img
+                    src={fbLogo} alt="" className={"facebook-top-logo"} /></a></Col>
+            </Row>
             <Row className={"top-menu-logo-row"}>
                 <Col xs={12} md={3}></Col>
                 <Col className={"top-logo"} xs={12} md={6}></Col>

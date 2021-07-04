@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container,Row,Col} from "react-bootstrap";
 import "./eventinotizie.css"
-import foto from '../assets/foto/fra2.jpeg';
+import foto from '../assets/foto/fra9.jpg';
 
 export class EventiNotizie extends Component {
     render() {
@@ -37,12 +37,13 @@ export class EventiNotizie extends Component {
                         </Col>
                         <Col xs={12} md={3}></Col>
                     </Row>
+                    <Row>
+                        <Col xs={12} md={12} className={"pl0 pr0"}>
+                            <img src={foto} alt="" className={"foto"}/>
+                        </Col>
+                    </Row>
                 </Container>
-                <Row>
-                    <Col xs={12} md={12} className={"pl0 pr0"}>
-                        <img src={foto} alt="" className={"foto"}/>
-                    </Col>
-                </Row>
+
             </div>
 
         )
