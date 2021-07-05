@@ -85,8 +85,8 @@ export class Topmenu extends Component {
                             <Dropdown.Item eventKey="3" to="/galleria" onClick={()=>document.getElementById('galleriaMenuLink').click()}>
                                 <Link id="galleriaMenuLink" to="/galleria" onClick={()=>this.activeParentMenu("cosafacciamoMenuLink")}>Galleria</Link>
                             </Dropdown.Item>
-                            <Dropdown.Item eventKey="4" to="/social" onClick={()=>document.getElementById('socialMenuLink').click()}>
-                                <Link id="socialMenuLink" to="/social" onClick={()=>this.activeParentMenu("cosafacciamoMenuLink")}>Social</Link>
+                            <Dropdown.Item eventKey="4" to="/collegamenti" onClick={()=>document.getElementById('collegamentiMenuLink').click()}>
+                                <Link id="collegamentiMenuLink" to="/collegamenti" onClick={()=>this.activeParentMenu("cosafacciamoMenuLink")}>Collegamenti</Link>
                             </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>

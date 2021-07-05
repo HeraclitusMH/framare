@@ -54,7 +54,7 @@ function App() {
                   <Route path="/galleria">
                       <Galleria></Galleria>
                   </Route>
-                  <Route path="/social">
+                  <Route path="/collegamenti">
                       <Social></Social>
                   </Route>
                   <Route path="/comunicazioni">

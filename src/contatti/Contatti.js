@@ -12,7 +12,7 @@ export class Contatti extends Component {
                         <Col xs={12} md={6}>
                             <h2 className={"title"}>Contatti</h2> <br/><br/>
                             <p>
-                                Puoi contattarci all'indirizzo mail <a href="mailto:tassociazione.framare@gmail.com">associazione.framare@gmail.com</a>
+                                Puoi contattarci all'indirizzo mail <a href="mailto:associazione.framare@gmail.com">associazione.framare@gmail.com</a>
                             </p> <br/><br/>
                         </Col>
                         <Col xs={12} md={3}></Col>

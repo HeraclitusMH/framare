@@ -12,6 +12,9 @@ import foto6 from '../assets/foto/fra6.jpeg';
 import foto7 from '../assets/foto/fra7.jpg';
 import foto8 from '../assets/foto/fra8.jpeg';
 import foto9 from '../assets/foto/fra9.jpg';
+import foto10 from '../assets/foto/fra10.jpg';
+import foto11 from '../assets/foto/stanzaMatemu.jpg';
+import foto12 from '../assets/foto/Targa.jpg';
 export class Galleria extends Component {
 
     render() {
@@ -26,6 +29,9 @@ export class Galleria extends Component {
             {src:foto7},
             {src:foto8},
             {src:foto9},
+            {src:foto10},
+            {src:foto11},
+            {src:foto12}
             ]
         return(
             <div>

@@ -4,3 +4,12 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.event{
+}
+
+.separator{
+    padding: 5%;
+    width:100%;
+    height: 80%;
+  }
