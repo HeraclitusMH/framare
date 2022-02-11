@@ -10,30 +10,66 @@ export class Topmenu extends Component {
         super(props);
         this.state = {
             selectedMenuLink: "no-link-selected"
-        };
+        }
     }
+
+    testFunction = () => {
+        let indirizzo = "Viale Leonardo Da Vinci";
+        let indirizzo2 = "Via del campo";
+        let n1 = 2;
+        // == è uguale
+        // !== diverso da
+        // ! NEGAZIONE, nega la condizione
+        // % modulo, divide il numero e ritorna il resto
+        
+        // && AND
+        // || OR
+
+        // + addizione
+        // - sottrazione
+        // / divisione
+        // * moltiplicazione
+
+
+        if(indirizzo == "Via Rosata"){
+            console.log("SEI DI GUIDONIA!")
+        } else if(indirizzo == "Viale Leonardo Da Vinci") {
+            console.log("Tra poco non lo sarà più");
+        }
+        if(n1%2 !== 0){
+            console.log("numero dispari");
+        }
+
+        // CONTATORE,CONDIZIONE (FINCHE' E' VERA CONTINUO IL CICLO), INCREMENTO
+        for(let i = 0; i<10; i++){
+            console.log(i);
+        }
+
+    };
+
 
     activeMenu = (e) => {
-        let elem = e.target
-        this.selectCurrentActive(elem)
-    }
+        this.testFunction();
+        let elem = e.target;
+        this.selectCurrentActive(elem);
+    };
 
     activeParentMenu = (id) => {
-        let elem = document.getElementById(id)
+        let elem = document.getElementById(id);
         this.selectCurrentActive(elem)
-
-    }
+    };
 
     selectCurrentActive = (elem) => {
         if(this.state.selectedMenuLink !== "no-link-selected"){
-            this.state.selectedMenuLink.classList.remove("selected")
-            this.state.selectedMenuLink = elem
-            elem.classList.add("selected")
+            this.state.selectedMenuLink.classList.remove("selected");
+            this.state.selectedMenuLink = elem;
+            elem.classList.add("selected");
         } else {
-            this.state.selectedMenuLink = elem
-            elem.classList.add("selected")
+            this.state.selectedMenuLink = elem;
+            elem.classList.add("selected");
         }
-    }
+    };
+
 
     render() {
         return(
