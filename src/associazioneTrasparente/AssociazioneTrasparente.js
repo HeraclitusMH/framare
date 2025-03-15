@@ -6,6 +6,7 @@ import r2019 from "../assets/pdf/Rendiconto2019.pdf"
 import r2020 from "../assets/pdf/Rendiconto2020.pdf"
 import r2021 from "../assets/pdf/Rendiconto2021.pdf"
 import statopat2021 from "../assets/pdf/Statopatrimoniale2021.pdf"
+import b2022 from "../assets/pdf/BILANCIO2022.pdf"
 
 export class AssociazioneTrasparente extends Component {
     render() {
@@ -32,7 +33,11 @@ export class AssociazioneTrasparente extends Component {
                             <a href={statuto}>Statuto dell’associazione Framarè Aps iscritta al Runts</a>
                             <br/><br/>
                             Rendiconti: <br/>
-                            <a href={r2019}>Rendiconto 2019</a>, <a href={r2020}>Rendiconto 2020</a>, <a href={r2021}>Rendiconto 2021</a>, <a href={statopat2021}>Stato patrimoniale 2021</a>
+                            <a href={r2019}>Rendiconto 2019</a>,
+                            <a href={r2020}>Rendiconto 2020</a>,
+                            <a href={r2021}>Rendiconto 2021</a>,
+                            <a href={statopat2021}>Stato patrimoniale 2021</a>,
+                            <a href={b2022}>Bilancio 2022</a>,
                         </p>
                         <br/><br/>
                     </Col>
